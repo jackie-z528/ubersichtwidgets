@@ -406,7 +406,7 @@ export const defaultSettings = {
   },
   widgets: {
     processWidget: true,
-    weatherWidget: false,
+    weatherWidget: true,
     batteryWidget: true,
     wifiWidget: true,
     vpnWidget: false,
@@ -421,8 +421,8 @@ export const defaultSettings = {
     stockWidget: false,
     musicWidget: true,
     mpdWidget: false,
-    dndWidget: false,
-    browserTrackWidget: true,
+    dndWidget: true,
+    browserTrackWidget: false,
   },
   weatherWidgetOptions: {
     refreshFrequency: 1000 * 60 * 30,

@@ -54,7 +54,7 @@ export const Widget = () => {
     const [status, ssid] = await Promise.all([
       Uebersicht.run(`ifconfig ${networkDevice} | grep status | cut -c 10-`),
       Uebersicht.run(
-        `networksetup -getairportnetwork ${networkDevice} | cut -c 24-`
+        `ipconfig getsummary en0 | awk -F ' SSID : '  '/ SSID : / {print $2}'`
       ),
     ]);
     setState({
