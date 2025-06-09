@@ -4,9 +4,9 @@
 import { run } from 'uebersicht'
 
 // ***************** OPTION ******************
-export const absolutPath = "'/Users/jackie/slideshow'" // e.g. "'/Users/profile/Photos'"
-export const fromTopPercentage = 5.5
-export const fromLeftPercentage = 27
+export const absolutPath = "'/Users/jackiezhou/slideshow'" // e.g. "'/Users/profile/Photos'"
+export const fromTopPercentage = 4.5 
+export const fromLeftPercentage = 25
 export const durationMs = 3 * 1000 // duration with miliseconds
 export const width = 125
 export const height = 125
