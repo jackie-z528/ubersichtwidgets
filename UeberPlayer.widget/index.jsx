@@ -653,9 +653,9 @@ const MiddleIcon = ({ color, isPlaying, isStopped }) => {
   if(isStopped) {
     return Icons.Stopped({ color });
   } else if(isPlaying) {
-    return Icons.Play({ color });
-  } else {
     return Icons.Paused({ color });
+  } else {
+    return Icons.Play({ color });
   }
 }
 
