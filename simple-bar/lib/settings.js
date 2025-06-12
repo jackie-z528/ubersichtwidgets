@@ -419,7 +419,7 @@ export const defaultSettings = {
     spotifyWidget: true,
     cryptoWidget: false,
     stockWidget: false,
-    musicWidget: true,
+    musicWidget: false,
     mpdWidget: false,
     dndWidget: true,
     browserTrackWidget: false,
